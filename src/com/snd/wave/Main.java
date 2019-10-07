@@ -22,11 +22,11 @@ package com.snd.wave;
         }
 
         public void displayinfo(int eid,String ename, String ad, String d, float s){
-            System.out.println("ID :"+ eid);
-            System.out.println("Name :"+ ename);
-            System.out.println("Address :"+ ad);
-            System.out.println("Date of Birth :"+ d);
-            System.out.println("Salary :"+ s);
+            System.out.println("ID :"+ employeeid);
+            System.out.println("Name :"+ employeename);
+            System.out.println("Address :"+ address);
+            System.out.println("Date of Birth :"+ dob);
+            System.out.println("Salary :"+ salary);
         }
     }
 
