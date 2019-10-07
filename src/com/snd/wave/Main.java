@@ -1,13 +1,11 @@
 package com.snd.wave;
 
-public class Main {
-
 
     interface paybonus{
         void calcincentive();
     }
 
-    public class employee{
+    class employee{
         private int employeeid;
         private String employeename;
         private String address;
@@ -15,7 +13,7 @@ public class Main {
         protected float salary;
         //to be used by the child a parents variables must be in protected type
 
-        private employee(int eid,String ename, String ad, String d, float s){
+        employee(int eid, String ename, String ad, String d, float s){
             employeeid = eid;
             employeename = ename;
             address = ad;
@@ -49,7 +47,9 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
+public class Main {
 
+    public static void main(String[] args) {
+        executive obj = new executive(1002,"John Doe","123, Main Road, Wakanda","1980-10-05",89000,5000);
     }
 }
