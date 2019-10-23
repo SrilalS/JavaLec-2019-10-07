@@ -7,6 +7,7 @@ package com.snd.wave;
 
     class employee{
         private int empID;
+        private int rmeID;
         private String empNAME;
         private String address;
         private String dob;
