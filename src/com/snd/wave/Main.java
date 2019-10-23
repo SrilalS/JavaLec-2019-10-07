@@ -6,24 +6,24 @@ package com.snd.wave;
     }
 
     class employee{
-        private int employeeid;
-        private String employeename;
+        private int empID;
+        private String empNAME;
         private String address;
         private String dob;
         protected float salary;
         //to be used by the child a parents variables must be in protected type
 
         employee(int eid, String ename, String ad, String d, float s){
-            employeeid = eid;
-            employeename = ename;
+            empID = eid;
+            empNAME = ename;
             address = ad;
             dob = d;
             salary = s;
         }
 
         public void displayinfo(int eid,String ename, String ad, String d, float s){
-            System.out.println("ID :"+ employeeid);
-            System.out.println("Name :"+ employeename);
+            System.out.println("ID :"+ empID);
+            System.out.println("Name :"+ empNAME);
             System.out.println("Address :"+ address);
             System.out.println("Date of Birth :"+ dob);
             System.out.println("Salary :"+ salary);
@@ -50,6 +50,6 @@ package com.snd.wave;
 public class Main {
 
     public static void main(String[] args) {
-        executive obj = new executive(1002,"John Doe","123, Main Road, Wakanda","1980-10-05",89000,5000);
+        executive obj = new executive(1002,"Smith","52, Main Road, africa","1925-10-05",89000,5000);
     }
 }
