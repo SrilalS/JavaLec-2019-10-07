@@ -11,6 +11,7 @@ package com.snd.wave;
         private String address;
         private String dob;
         protected float salary;
+        protected int sdr;
         //to be used by the child a parents variables must be in protected type
 
         employee(int eid, String ename, String ad, String d, float s){
